@@ -9,27 +9,15 @@ A minimal RAG system that lets you ask questions against your own notes, documen
 5. The model answers using only those chunks
 
 ## Out of Scope (Explicit Non-Goals)
-Not a chatbot
-Not connected to the internet
-Not trained on external data
-Not a productivity app
+* Not a chatbot
+* Not connected to the internet
+* Not trained on external data
+* Not a productivity app
    
-## Why this exists
-* * fill in here with case studies * *
+## How it Works
 
- Documents (.md)
-      ↓
-Chunker
-      ↓
-Embeddings
-      ↓
-Vector Store
-      ↓
-Query
-      ↓
-Top-K chunks
-      ↓
-LLM answer (constrained)
+```text
+Documents (.md) -> Chunker -> Embeddings -> Vector Store -> Query -> Top-K chunks -> LLM answer (constrained)
 
 
 personal-knowledge-index/
