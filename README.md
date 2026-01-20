@@ -30,3 +30,13 @@ Query
 Top-K chunks
       ↓
 LLM answer (constrained)
+
+
+personal-knowledge-index/
+├── README.md
+├── docs/
+│   └── sample.md
+├── ingest.py
+├── ask.py
+├── requirements.txt
+└── notes.md   # your own dev notes
