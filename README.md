@@ -19,7 +19,7 @@ A minimal RAG system that lets you ask questions against your own notes, documen
 ```text
 Documents (.md) -> Chunker -> Embeddings -> Vector Store -> Query -> Top-K chunks -> LLM answer (constrained)
 
-Repor Layout:
+Repo Layout:
 personal-knowledge-index/
 ├── README.md
 ├── docs/
