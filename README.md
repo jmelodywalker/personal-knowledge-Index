@@ -1,5 +1,5 @@
 # Background
-A minimal RAG system that lets you ask questions against your own notes, documents, or articles and nothing else.
+A minimal RAG tool that answers questions only from your own notes, documents, or articles.
 
 ## personal-knowledge-Index
 1. You provide documents
@@ -14,7 +14,7 @@ A minimal RAG system that lets you ask questions against your own notes, documen
 * Not trained on external data
 * Not a productivity app
    
-## How it Works
+## How it Works (System Pipeline)
 
 ```text
 Documents (.md) -> Chunker -> Embeddings -> Vector Store -> Query -> Top-K chunks -> LLM answer (constrained)
