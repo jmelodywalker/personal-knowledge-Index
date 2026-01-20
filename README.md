@@ -1,5 +1,5 @@
 # Background
-A minimal ml system that lets you ask questions against your own notes, documents, or articles and nothing else.
+A minimal RAG system that lets you ask questions against your own notes, documents, or articles and nothing else.
 
 ## personal-knowledge-Index
 1. You provide documents
