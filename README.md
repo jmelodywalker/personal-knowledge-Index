@@ -16,3 +16,17 @@ Not a productivity app
    
 ## Why this exists
 * * fill in here with case studies * *
+
+ Documents (.md)
+      ↓
+Chunker
+      ↓
+Embeddings
+      ↓
+Vector Store
+      ↓
+Query
+      ↓
+Top-K chunks
+      ↓
+LLM answer (constrained)
