@@ -24,7 +24,7 @@ this exists to demonstrate:
 	•	real cost surfaces
 	•	and a clean mental model for RAG systems
 
-#RAG #Retrieval-Augmented Generation #implementation
+#RAG #Retrieval-Augmented Generation #llm-demo
    
 ---
 
