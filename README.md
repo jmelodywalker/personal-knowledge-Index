@@ -1,5 +1,5 @@
 # Background
-A minimal RAG tool that answers questions only from your own notes, documents, or articles.
+A minimal RAG tool that lets you define your own corpus (notes, documents, or articles), ask questions about your corpus, and get answers **only when the information exists in your corpus**.
 
 ## personal-knowledge-Index
 1. You provide documents
@@ -44,7 +44,7 @@ This project demonstrates:
 - deterministic retrieval
 - explicit refusal to answer outside the corpus
 
-The goal is **correctness  coverage**.
+The goal is **correctness over coverage**.
 
 ---
 
