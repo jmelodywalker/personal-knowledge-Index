@@ -1,5 +1,5 @@
 # Background
-A minimal RAG tool that lets you define your own corpus (notes, documents, or articles), ask questions about your corpus, and get answers **only when the information exists in your corpus**.
+A RAG tool that lets you define your own corpus (notes, documents, or articles), ask questions about your corpus, and get answers **only when the information exists in your corpus**.
 
 ## personal-knowledge-Index
 1. You provide documents
