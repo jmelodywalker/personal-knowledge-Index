@@ -1,7 +1,7 @@
 # Background
 A RAG tool that lets you define your own corpus (notes, documents, or articles), ask questions about your corpus, and get answers **only when the information exists in your corpus**.
 
-## personal-knowledge-Index
+## ContextEval
 1. You provide documents
 2. They are chunked
 3. Chunks are embedded
@@ -30,7 +30,7 @@ this exists to demonstrate:
 
 ## What This Is
 
-`personal-knowledge-index` is a local, minimal RAG system that is a corpus-bound / question-answering tool.  
+`ContextEval` is a local, minimal RAG system that is a corpus-bound / question-answering tool.  
 It lets you query your own documents and get answers **only when the information exists in your corpus**.
 
 If the answer is not present, the system returns: "Not found in corpus."
@@ -54,7 +54,7 @@ The goal is **correctness over coverage**.
 Documents (.md) -> Chunker -> Embeddings -> Vector Store -> Query -> Top-K chunks -> LLM answer (constrained)
 
 Repo Layout:
-personal-knowledge-index/
+ContextEval/
 ├── README.md
 ├── docs/
 │   └── sample.md
@@ -63,7 +63,7 @@ personal-knowledge-index/
 ├── requirements.txt
 └── notes.md   # your own dev notes
 
-personal-knowledge-index/
+ContextEval/
 ├── README.md
 ├── docs/
 │   └── sample.md        # example corpus
